@@ -121,7 +121,7 @@ export default class App extends Component {
 
               <Route path="/blog"
                 // always use parens instead of curlys with this render func right here
-                // this is also where we make the auth for creating posts.
+                // this is also where we make the auth for creating posts....   
                 render={props => (
                   <Blog {...props} loggedInStatus={this.state.loggedInStatus} />
                 )
